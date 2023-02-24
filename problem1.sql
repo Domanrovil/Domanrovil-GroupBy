@@ -1,0 +1,1 @@
+select count(song), artist from song group by artist order by artist asc;
